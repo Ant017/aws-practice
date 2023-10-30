@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import EditModal from '../modalComponent/EditModal'
+import EditModal from '../modalComponent/editModal'
 
 function EditData({ title, author, genre, description, pages, price, stock, branches, image, editFormData, onEditChangeHandler, onEditSubmitHandler, handleEditBook }) {
     // const { editFormData, onEditChangeHandler, onEditSubmitHandler } = useBookHook();
