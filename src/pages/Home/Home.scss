@@ -1,0 +1,81 @@
+@import '../../utils/colors.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-img {
+    background-image: url("https://images.unsplash.com/photo-1595123550384-b81222e23cf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==&auto=format&fit=crop&w=1887&q=80");
+    height: 100vh;
+    width: auto;
+    object-fit: contain;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container {
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        // grid-template-columns: repeat(1, 1fr);
+        // top: 0;
+
+        .welcome {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            margin-top: 50px;
+
+            // grid-template-columns: repeat(1, 1fr);
+            // gap: 20px;
+            // margin-left: 80px;
+
+            .heading {
+                // font-family: 'Quesha';
+                color: $lightColor;
+                font-size: 90px;
+                font-weight: 25px;
+                // letter-spacing: 8px;
+            }
+
+            .heading-text {
+                color: $lightColor;
+                margin-bottom: 30px;
+                font-size: 22px;
+            }
+
+            .btn {
+                width: fit-content;
+                font-size: 18px;
+                // font-weight: bold;
+                letter-spacing: 3px;
+                border: 2px solid $lightColor;
+                background-color: rgba(0, 0, 0, 0);
+                padding: 18px 33px;
+                color: $lightColor;
+                text-decoration: none;
+                transition: 0.7s background-color, 0.3s color;
+
+            }
+
+            .btn:hover {
+                background-color: $lightColor;
+                color: $darkColor;
+                border: none;
+                cursor: pointer;
+
+                .link {
+                    text-decoration: none;
+                    color: $darkColor;
+                }
+            }
+        }
+    }
+}

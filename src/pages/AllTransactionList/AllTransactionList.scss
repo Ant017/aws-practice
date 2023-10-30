@@ -1,0 +1,55 @@
+@import '../../utils/colors.scss';
+
+.user-container {
+    margin-bottom: 20px;
+
+    .trans-user-block {
+        min-width: fit-content;
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+        border-radius: 60px;
+        padding: 0px 40px;
+        align-items: center;
+
+        .user-items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+
+            .trans-card {
+                width: 85%;
+                padding: 20px;
+                background-color: $lightColor;
+                display: grid;
+                grid-template-columns: 200px 1fr;
+                gap: 20px;
+                align-items: center;
+                margin-bottom: 20px;
+
+                .trans-img-container {
+                    height: 100px;
+
+                    img {
+                        height: 100%;
+                        object-fit: contain;
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+                    }
+                }
+
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+            }
+        }
+
+        .price {
+            display: flex;
+            flex: 1;
+        }
+    }
+}

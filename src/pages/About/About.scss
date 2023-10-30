@@ -1,0 +1,47 @@
+@import '../../utils/colors.scss';
+
+.about-page {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+}
+
+.header {
+    background-color: $darkColor;
+    color: $lightColor;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: $lightColor;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section,
+.team-section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: $darkColor;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer {
+    background-color: $darkColor;
+    color: $lightColor;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

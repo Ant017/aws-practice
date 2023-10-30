@@ -1,0 +1,41 @@
+@import '../../utils/colors.scss';
+
+footer {
+    background-color: $darkColor;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Adjust link styles */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style for the footer heading */
+footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Style for the footer links */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 8px;
+}
+
+/* Add some spacing for social icons */
+.social-icons {
+    margin-top: 10px;
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}

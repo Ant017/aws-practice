@@ -1,0 +1,72 @@
+@import '../../utils/colors.scss';
+
+.add-book-container {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .btn {
+        background-color: $darkColor;
+        color: $lightColor;
+        font-size: 16px;
+        padding: 5px 20px;
+        border: none;
+        margin: 20px;
+        text-align: center;
+        border-radius: 2px;
+    }
+
+    .btn:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    .form-data {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .form-item-2 {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            img {
+                width: 200px;
+                height: 200px;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .form-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 300px);
+        column-gap: 90px;
+        row-gap: 15px;
+        justify-content: center;
+        // flex-wrap: wrap;
+        // justify-content: center;
+        // align-items: flex-start;
+
+        .form-items {
+            display: grid;
+            place-items: center;
+            justify-items: stretch;
+
+            input {
+                background-color: $medColor;
+                padding: 8px 25px;
+                border-radius: 20px;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+
+
+}

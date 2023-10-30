@@ -1,0 +1,28 @@
+.slider {
+    display: flex;
+    flex-direction: row;
+    min-width: 300px;
+}
+
+// /* custom-slider.css */
+// /* Custom styles for the slider track */
+// .input-range {
+//     width: 100%;
+//     height: 10px;
+//     background-color: #ccc;
+//     border-radius: 5px;
+// }
+
+// /* Custom styles for the slider thumb (handle) */
+// .input-range-thumb {
+//     width: 20px;
+//     height: 20px;
+//     background-color: #4caf50;
+//     border-radius: 50%;
+//     cursor: pointer;
+// }
+
+// /* Change thumb color on hover */
+// .input-range-thumb:hover {
+//     background-color: #45a049;
+// }

@@ -1,0 +1,41 @@
+@import '../../utils/colors.scss';
+
+.auth-container {
+    // background-color: $lightColor;
+    // color: $lightColor;
+    font-size: 20px;
+    display: flex;
+    // display: grid;
+    // grid-template-columns: repeat(auto, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 18px 90px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    margin-top: 40px;
+    gap: 40px;
+
+    .link {
+        width: fit-content;
+        font-size: 16px;
+        // font-weight: bold;
+        letter-spacing: 3px;
+        border: 2px solid $lightColor;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 10px 20px;
+        color: $lightColor;
+        text-decoration: none;
+        transition: 0.7s background-color, 0.3s color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link:hover {
+        background-color: $lightColor;
+        color: $darkColor;
+        border: none;
+        cursor: pointer;
+    }
+}

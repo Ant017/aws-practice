@@ -1,0 +1,32 @@
+@import "../../utils/colors.scss";
+
+.header-container {
+    background-color: $lightColor;
+    color: $darkColor;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto auto auto auto auto auto auto;
+    gap: 40px;
+    align-items: center;
+    padding: 18px 90px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+
+    .link1 {
+        grid-column: 1;
+        text-decoration: none;
+        color: $darkColor;
+        font-size: 24px;
+    }
+
+    .link {
+        text-decoration: none;
+        color: $darkColor;
+        margin: 0 15px;
+    }
+
+    .userImgCircle {
+        border-radius: 50%;
+    }
+}
